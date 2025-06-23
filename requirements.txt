@@ -24,3 +24,4 @@ numpy==1.26.4
 av==14.3.0
 librosa==0.11.0
 tyro==0.8.14
+optimum==1.26.1
