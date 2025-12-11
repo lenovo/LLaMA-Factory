@@ -1,38 +1,48 @@
 # core deps
-transformers>=4.49.0,<=4.56.2,!=4.52.0; python_version < '3.10'
-transformers>=4.49.0,<=4.57.1,!=4.52.0,!=4.57.0; python_version >= '3.10'
-datasets>=2.16.0,<=4.0.0
-accelerate>=1.3.0,<=1.11.0
-peft>=0.14.0,<=0.17.1
-trl>=0.8.6,<=0.9.6
+transformers==4.57.1
+datasets==4.0.0
+accelerate==1.11.0
+peft==0.17.1
+trl==0.9.6
+
 # gui
-gradio>=4.38.0,<=5.45.0
-matplotlib>=3.7.0
-tyro<0.9.0
+gradio==5.45.0
+matplotlib==3.10.7
+tyro==0.8.14
+
 # ops
-einops
-numpy<2.0.0
-pandas>=2.0.0
-scipy
+einops==0.8.1
+numpy==1.26.4
+pandas==2.3.3
+scipy==1.15.3
+
 # model and tokenizer
-sentencepiece
-tiktoken
-modelscope>=1.14.0
-hf-transfer
-safetensors<=0.5.3
+sentencepiece==0.2.1
+tiktoken==0.12.0
+modelscope==1.32.0
+hf_transfer==0.1.9
+safetensors==0.5.3
+
 # python
-fire
-omegaconf
-packaging
-protobuf
-pyyaml
-pydantic<=2.10.6
+fire==0.7.1
+omegaconf==2.3.0
+packaging==25.0
+protobuf==6.33.2
+pyyaml==6.0.3
+pydantic==2.10.6
+
 # api
-uvicorn
-fastapi
-sse-starlette
+uvicorn==0.38.0
+fastapi==0.124.0
+sse-starlette==3.0.3
+
 # media
-av
-librosa
+av==16.0.1
+librosa==0.11.0
+
 # yanked
-propcache!=0.4.0
+propcache==0.4.1
+
+# additional deps
+deepspeed==0.16.9
+optimum==1.26.1
