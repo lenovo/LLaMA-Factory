@@ -19,6 +19,8 @@ scipy==1.15.3
 # model and tokenizer
 sentencepiece==0.2.1
 tiktoken==0.12.0
+jieba==0.42.1
+nltk==3.9.3
 modelscope==1.32.0
 hf_transfer==0.1.9
 safetensors==0.5.3
@@ -45,4 +47,6 @@ propcache==0.4.1
 
 # additional deps
 deepspeed==0.16.9
-optimum==1.26.1
+optimum==2.1.0
+rouge_chinese==1.0.3
+gptqmodel==2.0.0
